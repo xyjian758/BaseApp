@@ -57,6 +57,7 @@ public class MainActivity extends MvpActivity<MainPresenter, MainModel> implemen
     public void testView() {
         stopLoading();
 
+
         ARouter.getInstance()
                 .build(ArouteConstant.APP_OTHER)
                 .navigation();
